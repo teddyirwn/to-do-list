@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.text {
+    background-color: blueviolet;
+    height: 10rem;
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+    line-height: 5rem;
+
+}
+
+.text h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.text p {
+    line-height: 10px;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 50%;
+    margin: 1rem auto;
+}
+
+.container form input {
+    width: 50%;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.container form input:focus {
+    border: 2px solid blue;
+
+}
+
+.container form button {
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: 1rem;
+    background-color: rgb(139, 92, 184);
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+.container {
+    border: 1px solid #000;
+    background-color: aqua;
+    padding: 1rem;
+}
+
+
+.container .todo ul {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.container .todo ul li {
+    margin-top: 20px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .todo ul li span {
+    width: 2rem;
+    height: 2rem;
+    background-color: red;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
